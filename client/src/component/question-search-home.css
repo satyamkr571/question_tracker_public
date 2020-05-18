@@ -1,0 +1,102 @@
+.qsn_main_div {
+  position: relative;
+}
+.qsh_row {
+  padding: 0px;
+}
+
+.button_design {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  font-weight: bolder;
+  font-size: x-large;
+  align-items: center;
+}
+i {
+  padding: 5px;
+}
+.q_s_h_font {
+  font-weight: bold;
+}
+
+.qsn_container {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 20px;
+  width: auto;
+  margin-right: 20px;
+  margin-left: -20px;
+}
+
+.qsn_li {
+  border: 3px solid rgb(60, 172, 60);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+}
+
+.qsn_ol {
+  border: 3px solid rgb(60, 109, 172);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.a_qsn {
+  width: auto;
+  border: 0px solid rgb(56, 224, 56);
+  border-radius: 7px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+.qsn_head {
+  width: auto;
+  border: 2px solid rgb(60, 172, 60);
+  border-radius: 7px;
+  font-family: cursive;
+}
+
+.i_edit {
+  font-size: large;
+  color: rgb(0, 17, 255);
+}
+
+.i_trash {
+  color: rgb(180, 15, 15);
+  font-size: large;
+}
+.qsndiv {
+  font-weight: 500;
+  color: black;
+}
+
+.qsndiv::before {
+  counter-increment: my-sec-counter;
+  content: "Question No:-" counter(my-sec-counter) ". ";
+  color: rgb(233, 105, 55);
+  font-size: larger;
+  word-spacing: 0px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+.qsnheadcol {
+  color: tomato;
+  left: 10px;
+  top: 5px;
+}
+
+label {
+  color: black;
+  font-family: sans-serif;
+}

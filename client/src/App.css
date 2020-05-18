@@ -1,0 +1,29 @@
+body {
+  width: 100%;
+  counter-reset: my-sec-counter;
+}
+
+td {
+  overflow: initial;
+}
+ul {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 45%;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: xx-large;
+  letter-spacing: 1px;
+}
+
+label {
+  font-weight: bolder;
+}
+.nav_a {
+  font-size: larger;
+  padding: 2px;
+  margin-left: 60%;
+  color: white;
+}
