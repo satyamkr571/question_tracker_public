@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 const uri =
-  "mongodb+srv://satyamDB:satyam@cluster0-teswf.gcp.mongodb.net/question_tracker?retryWrites=true&w=majority";
+  "mongodb+srv://dbname:password@cluster0-teswf.gcp.mongodb.net/question_tracker?retryWrites=true&w=majority";
 mongoose.connect(uri, {
   useNewUrlParser: true,
   useCreateIndex: true,
